@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../Assets/Plain\ Blue\ Background.png);
+    height: 1400px;
+} 
+.main{
+    background-image: url(../Assets/Clouds\ Background.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: top;
+    background-attachment: fixed;
+    position: relative;
+    height: 1400px;
+    
+}
+.main .container{
+    min-height: 500px;
+    max-height: 700px;
+}
+
+.main .line-branches{
+    display: inline-block;
+    height: 700px;
+    border-left: 5px solid blue;
+    position: relative;
+    left: 50%;
+}
+.main .left .info-left{
+    background: white;
+    color: blue;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    left: -200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.main .left .circul{
+    height: 15px;
+    width: 15px;
+    border: 2.5px solid blue;
+    border-radius: 100%;
+    background: white;
+    position: absolute;
+    top: 70px;
+    left: -10px;
+}
+.main .left .line{
+    width: 40px;
+    border-top: 3px solid blue;
+    position: absolute;
+    top: 76px;
+    left: -50px;
+}
+.main .left .two{
+    position: absolute;
+    left: -56px;
+    z-index: 10;
+}
+.main .left .second{
+    position: absolute;
+    top: 150px;
+}
+.main .left .third{
+    position: absolute;
+    top: 300px;
+}
+.main .left .fourth{
+    position: absolute;
+    top: 450px;
+}
+
+.main .right .info-right{
+    background: white;
+    color: blue;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+.main .right .circul{
+    height: 15px;
+    width: 15px;
+    border: 2.5px solid blue;
+    border-radius: 100%;
+    background: white;
+    position: absolute;
+    top: 140px;
+    left: -10px;
+}
+.main .right .line{
+    width: 40px;
+    border-top: 3px solid blue;
+    position: absolute;
+    top: 146px;
+    left: 3px;
+}
+.main .right .two{
+    position: absolute;
+    left: 40px;
+    z-index: 10;
+}
+.main .right .second{
+    position: absolute;
+    top: 150px;
+}
+.main .right .third{
+    position: absolute;
+    top: 300px;
+}
+.main .right .fourth{
+    position: absolute;
+    top: 450px;
+}

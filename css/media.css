@@ -1,0 +1,19 @@
+/* Media Query */
+/* Phone xs */
+@media (max-width:575px){
+    .main{
+        background-size: 100%;
+    }
+}
+/* Small */
+@media (min-width:576px) and (max-width:768px){
+    .main{
+        background-size: 100%;
+    }
+}
+/* medium */
+@media (min-width:769px) and (max-width:991px) {
+    .main{
+        background-size: 100%;
+    }
+}
